@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* color: #f0f8ff; */
+    background-image: url(https://cdn1.unitedinfocus.com/uploads/14/2024/11/GettyImages-2183554617-1140x760.jpg);
+}
+.container{
+    padding: 20px;
+    width: 550px;
+    background-color: #f0f8ff;
+}
+.container h2{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+    width: 530px;
+}
+button{
+    margin: 12px;
+    padding: 10PX;
+    background-color: aqua;
+}
